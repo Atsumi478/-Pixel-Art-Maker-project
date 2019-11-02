@@ -19,9 +19,7 @@ sizePicker.addEventListener('click', (e) => {
 //when size is submitted by user makeGrid()
 //reset color
 function makeGrid(height, width){
-    while(gridTable.length>0){
-      gridTable.reset(makeGrid);
-}
+   
     for (let i = 0; i < height; i++){
         let row = gridTable.insertRow(i);
         for (let c = 0; c < width; c++){
